@@ -1,0 +1,13 @@
+<div class="page">
+    <div class="nav">
+        Pokedex
+    </div>
+    <div id="pokemon" *ngFor="let p of pokemon">
+        <div>
+            #{{ p.id }}
+        </div>
+        <div class="pokedex-pokemon-name">
+            {{ p.name }}
+        </div>
+    </div>
+</div>
